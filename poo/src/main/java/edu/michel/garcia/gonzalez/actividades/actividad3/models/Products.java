@@ -2,6 +2,30 @@ package edu.michel.garcia.gonzalez.actividades.actividad3.models;
 
 
 public class Products {
+/**
+ * Clase que representa un producto, con información sobre su código, tipo, costo e impuestos.  
+ *    
+ * @param codigo Código del producto.  
+ * @param tipo Tipo del producto.  
+ * @param costo Costo del producto.  
+ *  
+ * @return Código del producto.  
+ *   
+ * @param codigo Nuevo código del producto.  
+ *  
+ * @return Tipo del producto.  
+ *   
+ * @param tipo Nuevo tipo del producto.  
+ *  
+ * @return Costo del producto.
+ * @param costo Nuevo costo del producto.  
+ *  
+ * Calcula el precio de venta del producto considerando la utilidad y el impuesto.  
+ * @param utilidad Porcentaje de utilidad en decimal (0.2 para 20%).  
+ * @return Precio de venta del producto.  
+ */
+
+
     private String codigo;
     private String tipo;
     private Double costo;

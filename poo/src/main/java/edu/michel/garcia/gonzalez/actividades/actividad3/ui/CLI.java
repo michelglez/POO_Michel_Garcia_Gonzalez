@@ -7,6 +7,18 @@ import java.util.Scanner;
 
 public class CLI {
 
+/**
+ * Clase que proporciona una interfaz de línea de comandos (CLI) para gestionar el inventario de productos.  
+ *  
+ * Inicia la aplicación CLI y gestiona la interacción con el usuario.  
+ * Presenta un menú y permite agregar, visualizar y comparar productos.  
+ * Muestra el menú de opciones disponibles para el usuario.  
+ *  
+ * Permite comparar dos productos en el inventario según su código.  
+ * @param stockstore Objeto StockStore que contiene el inventario de productos.  
+ * @param args Argumentos de la línea de comandos
+ */
+
     public static void runApp() {
        
         Scanner scanner = new Scanner(System.in);
